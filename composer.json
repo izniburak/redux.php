@@ -1,0 +1,23 @@
+{
+  "name": "izniburak/redux",
+  "type": "library",
+  "description": "simple Redux implementation for PHP",
+  "keywords": ["php", "redux"],
+  "homepage": "https://github.com/izniburak/redux.php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "İzni Burak Demirtaş",
+      "email": "info@burakdemirtas.org",
+      "homepage": "http://burakdemirtas.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Buki\\Redux\\": "src"
+    }
+  }
+}
